@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <body style="height:100vh;margin:0px;background-color: rgb(12, 12, 12);">
+    <img style="display:block;margin-left:auto;margin-right:auto;height:100vh;">
+     <div style="margin:0;position:absolute;left:50%;bottom:0%;transform: translate(-50%, -50%);">
+      <p style="margin:0;color:white;background-color: rgb(12, 12, 12);padding:.25em"></p>
+    </div>
+  </body>
+</html>
+
+<script>
+fetch('https://api.waifu.im/random')
+    .then(function(res) {
+        res.json().then(function(data) {
+            const img = document.querySelector("img"); 
+            const txt = document.querySelector("p"); 
+            txt.innerHTML = data.images[0].tags[0].description;
+            img.src = data.images[0].url;
+        })
+    })
+</script>
