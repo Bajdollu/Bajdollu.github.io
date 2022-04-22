@@ -10,6 +10,7 @@
 </html>
 
 <script>
+  
 fetch('https://api.waifu.im/random/?is_nsfw=null')
     .then(function(res) {
         res.json().then(function(data) {
@@ -19,4 +20,5 @@ fetch('https://api.waifu.im/random/?is_nsfw=null')
             img.src = data.images[0].url;
         })
     })
+  
 </script>
