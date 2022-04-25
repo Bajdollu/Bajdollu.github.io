@@ -6,6 +6,12 @@ body {
     background: rgb(29,29,29);
 }
 
+.pc {
+    @media (min-width:800px) {
+        visibility: hidden;
+    }
+}
+
 .pfp {
     position: absolute;
     top: 7.5vh;
