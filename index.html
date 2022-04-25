@@ -10,7 +10,7 @@
 </html>
 
 <script>
-fetch('https://api.waifu.im/random/?is_nsfw=null')
+fetch('https://api.waifu.im/random')
     .then(function(res) {
         res.json().then(function(data) {
             const img = document.querySelector("img"); 
