@@ -5,10 +5,9 @@ body {
     margin: 0;
     background: rgb(29,29,29);
 }
-
-.pc {
-    @media (min-width:800px) {
-        visibility: hidden;
+@media screen and (max-device-width:800px), screen and (max-width:800px) {
+    .pc {
+        Visibility: hidden;
     }
 }
 
