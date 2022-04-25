@@ -1,0 +1,40 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    background: rgb(29,29,29);
+}
+
+.pfp {
+    position: absolute;
+    top: 7.5vh;
+    left: 3vw;
+    background-color: black;
+    height: 85vh;
+    width: 30vw;
+    border-radius: 2em;
+    box-shadow: 0px 0px 13px 0px;
+}
+
+.CoolSide {
+    display: block;
+    position: relative;
+    width: 25vw;
+    height: 100vh;
+    background: rgb(255,205,0);
+    background: -moz-radial-gradient(circle, rgba(255,205,0,1) 0%, rgba(240,173,27,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,205,0,1) 0%, rgba(240,173,27,1) 100%);
+    background: radial-gradient(circle, rgba(255,205,0,1) 0%, rgba(240,173,27,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffcd00",endColorstr="#f0ad1b",GradientType=1);
+}
+
+.CoolSide:Before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    right: -1px;
+    border-bottom: 105vh solid transparent;
+    border-right: 22vh solid rgb(29,29,29);
+}
