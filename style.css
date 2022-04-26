@@ -7,10 +7,9 @@ body {
 }
 
 @keyframes btnfade {
-  from {background-color: rgb(42,42,42);}
-  to {background-color: rgb(240,173,27);}
+  from {background-color: red;}
+  to {background-color: yellow;}
 }
-
 
 @media screen and (max-device-width:991px), screen and (max-width:991px) {
     .pc {
@@ -33,12 +32,11 @@ body {
     margin-top: 2vh;
     margin-bottom: 2vh;
     cursor: pointer;
-    background-color: rgb(42,42,42);
 }
 
 .buttons > button:hover {
-    background-color: rgb(240,173,27);
-    animation: btnfade 1s;
+    animation-name: btnfade;
+    animation-duration: 1s;
 }
 
 .buttons {
