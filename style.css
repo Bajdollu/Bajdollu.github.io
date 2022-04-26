@@ -20,17 +20,6 @@ body {
     }
 }
 
-.loadinganim {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    background-color: rgb(27,27,27);
-    z-index: 1;
-    animation: loadfadeout .5s;
-    height: 0;
-}
-
 .buttons > button {
     display: inline;
     width: 3.4vw;
