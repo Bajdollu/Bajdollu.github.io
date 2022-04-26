@@ -40,8 +40,8 @@ body {
 }
 
 .loadinganim:active {
-    animation: loadfadout 1s;
     height: 0;
+    animation: loadfadout 1s;
 }
 
 .buttons > button {
