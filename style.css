@@ -37,11 +37,11 @@ body {
     bottom: 0;
     background-color: rgb(27,27,27);
     z-index: 1;
+    animation: loadfadeout 1s;
+    height: 0;
 }
 
 .loadinganim:active {
-    height: 0;
-    animation: loadfadout 1s;
 }
 
 .buttons > button {
