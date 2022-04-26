@@ -7,10 +7,10 @@ body {
 }
 @media screen and (max-device-width:991px), screen and (max-width:991px) {
     .pc {
-        Visibility: hidden;
+        Visibility: hidden !important;
     }
     .mobile {
-        Visibility: visible;
+        Visibility: visible !important;
     }
 }
 
