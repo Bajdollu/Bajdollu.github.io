@@ -6,16 +6,6 @@ body {
     background: rgb(17,17,17);
 }
 
-@keyframes btnfadein {
-  from {background-color: rgb(42,42,42);}
-  to {background-color: rgb(240,173,27);}
-}
-
-@keyframes btnfadeout {
-  from {background-color: rgb(240,173,27);}
-  to {background-color: rgb(42,42,42);}
-}
-
 @keyframes loadfadeout {
   from {height: 100%;}
   to {height: 0;}
@@ -49,14 +39,13 @@ body {
     cursor: pointer;
     border: 0.1vw solid rgb(17,17,17);
     background-color: rgb(42,42,42);
-    animation: btnfadeout .2s;
+    transition: background-color .2s ease-out 100ms;
     margin-top: 1.3vh;
     margin-bottom: 1.3vh;
 }
 
 .buttons > button:hover {
     background-color: rgb(240,173,27);
-    animation: btnfadein .2s;
 }
 
 .buttons > button > i {
