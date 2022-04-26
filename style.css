@@ -39,7 +39,7 @@ body {
     cursor: pointer;
     border: 0.1vw solid rgb(17,17,17);
     background-color: rgb(42,42,42);
-    transition: background-color .2s ease-out 100ms;
+    transition: background-color .2s ease-out;
     margin-top: 1.3vh;
     margin-bottom: 1.3vh;
 }
