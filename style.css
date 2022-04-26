@@ -33,6 +33,7 @@ body {
     margin-top: 2vh;
     margin-bottom: 2vh;
     cursor: pointer;
+    border: 3px solid rgb(29,29,29);
     background-color: rgb(42,42,42);
 }
 
