@@ -30,7 +30,6 @@ body {
     width: 4vw;
     height: 4vw;
     border-radius: 100%;
-    border: 0;
     left: 3vw;
     margin-left: 3vw;
     margin-right: 3vw;
@@ -39,12 +38,12 @@ body {
     cursor: pointer;
     border: 3px solid rgb(29,29,29);
     background-color: rgb(42,42,42);
-    animation: btnfadeout 1s;
+    animation: btnfadeout .2s;
 }
 
 .buttons > button:hover {
     background-color: rgb(240,173,27);
-    animation: btnfadein 1s;
+    animation: btnfadein .2s;
 }
 
 .buttons {
