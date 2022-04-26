@@ -16,6 +16,11 @@ body {
   to {background-color: rgb(42,42,42);}
 }
 
+@keyframes loadfadeout {
+  from {height: 100%;}
+  to {height: 0;}
+}
+
 @media screen and (max-device-width:991px), screen and (max-width:991px) {
     .pc {
         Visibility: hidden !important;
@@ -23,6 +28,16 @@ body {
     .mobile {
         Visibility: visible !important;
     }
+}
+
+.loadinganim {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(27,27,27);
+    z-index: 1;
+    animation: loadfadout 1s;
 }
 
 .buttons > button {
