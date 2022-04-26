@@ -6,11 +6,15 @@ body {
     background: rgb(29,29,29);
 }
 
-@keyframes btnfade {
+@keyframes btnfadein {
   from {background-color: rgb(42,42,42);}
   to {background-color: rgb(240,173,27);}
 }
 
+@keyframes btnfadeout {
+  from {background-color: rgb(240,173,27);}
+  to {background-color: rgb(42,42,42);}
+}
 
 @media screen and (max-device-width:991px), screen and (max-width:991px) {
     .pc {
@@ -35,11 +39,12 @@ body {
     cursor: pointer;
     border: 3px solid rgb(29,29,29);
     background-color: rgb(42,42,42);
+    animation: btnfadeout 1s;
 }
 
 .buttons > button:hover {
     background-color: rgb(240,173,27);
-    animation: btnfade 1s;
+    animation: btnfadein 1s;
 }
 
 .buttons {
