@@ -43,6 +43,12 @@ body {
     animation: btnfadein .2s;
 }
 
+.buttons > button > i {
+    color: #e1e1e1;
+    font-size: 1.5vh;
+}
+}
+
 .buttons {
     height: 100%;
     width: 100%;
