@@ -37,7 +37,7 @@ body {
     bottom: 0;
     background-color: rgb(27,27,27);
     z-index: 1;
-    animation: loadfadeout .3s;
+    animation: loadfadeout .5s;
     height: 0;
 }
 
