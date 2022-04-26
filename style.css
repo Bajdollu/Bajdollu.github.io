@@ -96,7 +96,7 @@ body {
 }
 
 .slantedback {
-    box-shadow: 0 0 20px 20px;
+    box-shadow: 0 0 5vh 1vh;
     display: block;
     position: fixed;
     width: 100%;
