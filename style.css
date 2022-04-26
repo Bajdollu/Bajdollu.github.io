@@ -9,13 +9,16 @@ body {
     .pc {
         Visibility: hidden;
     }
-    .mpfp {
+    .mobile {
         Visibility: visible;
     }
 }
 
+.mobile {
+    Visibility: hidden;   
+}
+
 .mpfp {
-    Visibility: hidden;
     position: absolute;
     top: 15vh;
     left: 35vw;
