@@ -43,6 +43,9 @@ body {
     background-color: transparent;
     top: 0;
     right: 0;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .mobile {
