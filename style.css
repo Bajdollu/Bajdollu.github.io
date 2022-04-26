@@ -25,6 +25,7 @@ body {
     margin-right: 3vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    cursor: pointer;
 }
 
 .buttons {
