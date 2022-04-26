@@ -27,18 +27,15 @@ body {
 
 .buttons > button {
     display: inline;
-    width: 4vw;
-    height: 4vw;
+    width: 3.4vw;
+    height: 3.4vw;
     border-radius: 100%;
-    left: 3vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
     cursor: pointer;
     border: 3px solid rgb(29,29,29);
     background-color: rgb(42,42,42);
     animation: btnfadeout .2s;
+    margin-top: 1.3vh;
+    margin-bottom: 1.3vh;
 }
 
 .buttons > button:hover {
@@ -58,7 +55,7 @@ body {
 }
 
 .sidebar {
-    width: 10vw;
+    width: 8vw;
     height: 100%;
     position: absolute;
     background-color: transparent;
