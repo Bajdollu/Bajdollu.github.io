@@ -42,6 +42,10 @@ body {
     margin-bottom: 1.3vh;
 }
 
+.active {
+    background-color: rgb(240,173,27) !important;
+}
+
 .buttons > button:hover {
     background-color: rgb(240,173,27);
 }
