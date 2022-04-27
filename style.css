@@ -20,6 +20,15 @@ body {
     }
 }
 
+.information {
+    width: 40vw;
+    height: 50vh;
+    background-color: aliceblue;
+    position: absolute;
+    top: 25vh;
+    right: 13vw;
+}
+
 .buttons > button {
     display: inline;
     width: 3.4vw;
