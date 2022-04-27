@@ -23,7 +23,7 @@ body {
 .information {
     width: 40vw;
     height: 50vh;
-    background-color: aliceblue;
+    background-color: transparent;
     position: absolute;
     top: 25vh;
     right: 13vw;
